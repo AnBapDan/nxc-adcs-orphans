@@ -40,18 +40,6 @@ Generate LDIF artifacts:
 nxc ldap <DC_IP> -u <USERNAME> -p '<PASSWORD>' -M adcs_orphans -o GENERATE_FILES=TRUE
 ```
 
-Example:
-
-```bash
-nxc ldap 10.10.10.10 -u auditor -p 'Password123!' -M adcs_orphans
-```
-
-Example with file generation:
-
-```bash
-nxc ldap 10.10.10.10 -u auditor -p 'Password123!' -M adcs_orphans -o GENERATE_FILES=TRUE
-```
-
 ## Example output
 
 ```text
